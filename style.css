@@ -1,47 +1,50 @@
-.img-thumbnail{
-  max-height:250px;
+.img-thumbnail {
+  max-height: 250px;
+  margin-top: 40px;
 }
 
-a{
-  text-decoration:none;
-  color:#000;
-  font-size:1.5em
-}
-
-.navbar{
-  border:0;
-  background-color:#0275d8;
-  margin:0px;
-  //  border:2px solid red;
-}
-
-.jumbotron{
- // border:2px solid red;
-  background: url('https://hd.unsplash.com/photo-1445023835378-9fa9a2089f0c') no-repeat;
-  background-size:cover;
-	background-position: center;
-  height:600px;
-}
-
-
-
-.more-info {
-  text-align:center;
-  margin:auto 16px;
-}
-
-  
-
-
-.navbar-default .navbar-brand{
-  color:white;
+.navbar-brand{
+  font-size: 1.5em;
   
 }
 
-.navbar-default .navbar-nav>li>a{
-  color:white;
+
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5em
+}
+
+.navbar {
+  border: 0;
+  background-color: #0275d8;
+  margin: 0px;
+}
+
+.jumbotron {
+  background: url("https://images.unsplash.com/photo-1445023835378-9fa9a2089f0c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=cbab1faf64e943a0c8739ad5479e2bce") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  
+
 }
 
 
+.navbar-default .navbar-brand {
+  color: white;
+}
 
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+h1{
+  font-size:3.5em;
+}
+
+p{
+  font-size:1.5em;
+}
 
