@@ -8,7 +8,7 @@ body {
 body {
   padding-top: 50px;
   color: #fff;
-  background: url("https://images.unsplash.com/photo-1473213021768-ea962b488457?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=f8b6b7e5fb188a0995be798430d144ef") no-repeat;
+  background: url("images/coffeebackground.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
