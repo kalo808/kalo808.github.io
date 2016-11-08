@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+body {
+  padding-top: 50px;
+  color: #fff;
+  background: url("https://images.unsplash.com/photo-1473213021768-ea962b488457?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=f8b6b7e5fb188a0995be798430d144ef") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#portfolio{
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.card {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5em
+}
+
+.navbar {
+  border: 0;
+  background: transparent;
+  margin: 0px;
+}
+
+.navbar:hover{
+  background:rgba(104,70,41,0.8);
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+}
+
+.col-lg-4 {
+  margin-bottom: 40px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:#000;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  width: 300px;
+  background: #fff;
+}
+
+.shinobi {
+  height: 200px;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+  padding: 2px 16px;
+}
