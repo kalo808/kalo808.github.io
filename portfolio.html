@@ -3,14 +3,22 @@
 
 <head>
 
-  <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer ></script>
-  <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/portfolio.css" type="text/css" />
+
+
+  <!--icons-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+
+  <!--custom fonts-->
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway" rel="stylesheet">
 
+  <!--stylesheet-->
+  <link rel="stylesheet" href="assets/portfolio.css" type="text/css" />
 
+  <!--javascript-->
+  <script type="text/javascript" src="assets/portfolio.js" defer></script>
 
   <meta name="viewport" content="width=device-width">
   <meta charset="UTF-8">
@@ -57,98 +65,198 @@
       <h3>Android Apps</h3>
       <hr>
       <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">
-            <div class="card">
+        <div class="col-md-6 col-lg-4 card-container android">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
+          <div class="card">
+            <div class="front">
               <img src="assets/images/flashcards.png" alt="Avatar">
-              <div class="container">
-                <h4><b>FlashCards</b></h4>
-                <p>More-info</p>
-              </div>
+              <h4><b>FlashCards</b></h4>
+              <p class="more-info">More-info</p>
             </div>
-          </a>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>FlashCards</h3>
+              <p>Motivation: Helping Students who want flash cards on the go. I used flashcards to study in college but hate carrying them around.
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>Android Studio</li>
+                <li>Java</li>
+                <li>XML</li>
+                <li>sql-lite</li>
+              </ul>
+
+            </div>
+          </div>
+          <!--</a>-->
         </div>
 
 
 
-        <div class="col-md-6 col-lg-4">
-          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.recipeapp&hl=en">
-            <div class="card">
+        <div class="col-md-6 col-lg-4 card-container android">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
+          <div class="card">
+            <div class="front">
               <img src="assets/images/recipesearch.png" alt="Avatar">
-              <div class="container">
-                <h4><b>Food Recipe</b></h4>
-                <p>More-info</p>
-              </div>
+              <h4><b>Recipe Search</b></h4>
+              <p class="more-info">More-info</p>
             </div>
-          </a>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>FlashCards</h3>
+              <p>Motivation: Learning about google's Material desing and how to use APIs using Android Studio. Building an App that helps people find recipes.
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>Android Studio</li>
+                <li>Java</li>
+                <li>XML</li>
+                <li>Food2Fork API</li>
+              </ul>
+            </div>
+          </div>
+          <!--</a>-->
         </div>
 
-        <div class="col-md-6 col-lg-4">
-          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.karlo.ninjarunner&hl=en">
-            <div class="card">
-              <img class="shinobi" src="assets/images/shinobi.png" alt="Avatar">
-              <div class="container">
-                <h4><b>Shinobi Runner</b></h4>
-                <p>More-info</p>
-              </div>
+
+        <div class="col-md-6 col-lg-4 card-container web">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
+          <div class="card">
+            <div class="front">
+              <img class=shinobi src="assets/images/shinobi.png" alt="Avatar">
+              <h4><b>Shinobi Runner</b></h4>
+              <p class="more-info">More-info</p>
             </div>
-          </a>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>Shinobi Runner</h3>
+              <p>Motivation: To learn more about Unity and Game Devlopment
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>Unity</li>
+                <li>C#</li>
+
+              </ul>
+            </div>
+          </div>
+          <!--</a>-->
         </div>
       </div>
+
+
       <h3>Web Apps</h3>
       <hr>
       <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <a target="_blank" href="https://codepen.io/kalo808/pen/RGXOLB">
-            <div class="card">
-              <img class="web" src="assets/images/TwitchViewer.png" alt="Avatar">
-              <div class="container">
-                <h4><b>Twitch Viewer</b></h4>
-                <p>More-info</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a target="_blank" href="https://codepen.io/kalo808/pen/Egqyqg">
-            <div class="card">
-              <img class="web" src="assets/images/Wikpedia.png" alt="Avatar">
-              <div class="container">
-                <h4><b>Wikipedia Viewer</b></h4>
-                <p>More-info</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a target="_blank" href="http://codepen.io/kalo808/pen/OReOyz">
-            <div class="card">
-              <img class="web" src="assets/images/CurrentWeather.png" alt="Avatar">
-              <div class="container">
-                <h4><b>Current Weather App</b></h4>
-                <p>More-info</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        
-        <div class="col-md-6 col-lg-4">
-        <a target="_blank" href="http://codepen.io/kalo808/pen/ORqJay">
+
+        <div class="col-md-6 col-lg-4 card-container web">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
           <div class="card">
-            <img class="web" src="assets/images/RandomQuote.png" alt="Avatar">
-            <div class="container">
-              <h4><b>RandomQuote App</b></h4>
-              <p>More-info</p>
+            <div class="front">
+              <img class=shinobi src="assets/images/TwitchViewer.png" alt="Avatar">
+              <h4><b>Twitch Viewer</b></h4>
+              <p class="more-info">More-info</p>
+            </div>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>Twitch Viewer</h3>
+              <p>Motivation: To learn more about APIs and improve html,css,jQuery skills
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JQuery</li>
+                <li>BootStrap</li>
+                <li>Twitch API</li>
+              </ul>
             </div>
           </div>
-        </a>
-      </div>
-      </div>
-      
+          <!--</a>-->
+        </div>
+
+        <div class="col-md-6 col-lg-4 card-container web">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
+          <div class="card">
+            <div class="front">
+              <img class=shinobi src="assets/images/Wikpedia.png" alt="Avatar">
+              <h4><b>WikiPedia Viewer</b></h4>
+              <p class="more-info">More-info</p>
+            </div>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>WikiPedia Viewer</h3>
+              <p>Motivation: Learning how to use Web APIs
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JQuery</li>
+                <li>BootStrap</li>
+                <li>WikiPedia API</li>
+              </ul>
+            </div>
+          </div>
+          <!--</a>-->
+        </div>
+
+        <div class="col-md-6 col-lg-4 card-container web">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
+          <div class="card">
+            <div class="front">
+              <img class=shinobi src="assets/images/CurrentWeather.png" alt="Avatar">
+              <h4><b>Current Weather App</b></h4>
+              <p class="more-info">More-info</p>
+            </div>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>Current Weather App</h3>
+              <p>Motivation: Learning how to use Web APIs
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JQuery</li>
+                <li>BootStrap</li>
+                <li>WikiPedia API</li>
+              </ul>
+            </div>
+          </div>
+          <!--</a>-->
+        </div>
 
 
+        <div class="col-md-6 col-lg-4 card-container web">
+          <!--<a target="_blank" href="https://play.google.com/store/apps/details?id=com.adotdamo.android.flashcards&hl=en">-->
+          <div class="card">
+            <div class="front">
+              <img class=shinobi src="assets/images/RandomQuote.png" alt="Avatar">
+              <h4><b>Random Quote App</b></h4>
+              <p class="more-info">More-info</p>
+            </div>
+            <div class="back">
+              <p class="back-button">back</p>
+              <h3>Current Weather App</h3>
+              <p>Motivation: To get more comfortable using HTML,CSS,JQuery,and BootStrap
+              </p>
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JQuery</li>
+                <li>BootStrap</li>
+              </ul>
+            </div>
+          </div>
+          <!--</a>-->
+        </div>
+
+
+
+      </div>
     </div>
-  </div>
   </div>
 </body>
 
