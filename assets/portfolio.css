@@ -39,7 +39,8 @@ img {
 
 /* On mouse-over, add a deeper shadow */
 
-.card:hover {
+.card .front:hover,
+.card .back:hover{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
 
@@ -58,6 +59,7 @@ img {
 
 .card-container.web {
   height: 320px;
+  max-height: 480px;
   position: relative;
   perspective: 800px;
 }
@@ -65,7 +67,6 @@ img {
 .card {
   /* Add shadows to create the "card" effect */
   margin: 0 auto;
-  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   height: 100%;
   width: 300px;
@@ -89,11 +90,11 @@ img {
 
 .card .front,
 .card .back {
-  display: block;
   height: 100%;
   width: 100%;
   color: #000;
   position: absolute;
+   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -101,13 +102,16 @@ img {
 }
 
 .card .front {
+  
   background: #fff;
 }
 
 .card .back {
+  height:480px;
   padding-left: 16px;
   padding-right: 16px;
   background: #fff;
+
   -webkit-transform: rotateY( 180deg);
   -moz-transform: rotateY( 180deg);
   -o-transform: rotateY( 180deg);
@@ -115,10 +119,9 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: .9em;
 }
-
-h4,
+b,
 p {
   margin-left: 16px;
   margin-right: 16px;
@@ -159,13 +162,11 @@ a {
 
 .navbar {
   border: 0;
-  background: transparent;
+  background: #0275d8;
   margin: 0px;
 }
 
-.navbar:hover{
-  background:rgba(2,117,216,0.8);
-}
+
 
 .navbar-default .navbar-brand {
   color: #fff;
@@ -191,7 +192,24 @@ a:hover, a:visited, a:link, a:active
 
 
 
+/*Github Codepen button styling*/
+a.btn-git,.btn-git:hover{
+  font-family: 'Raleway', sans-serif;
+  background:rgb(238,238,238);
+  color:#000;
+}
 
+a.btn-codepen,.btn-codepen:hover{
+  font-family: 'Raleway', sans-serif;
+  background:#000;
+  color:#fff;
+}
+
+a.btn-android,.btn-android:hover{
+  font-family: 'Raleway', sans-serif;
+  color:#a4c639;
+  background:rgb(238,238,238);
+}
 
 
 
