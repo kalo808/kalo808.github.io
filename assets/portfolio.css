@@ -14,7 +14,6 @@ body {
   background: url("images/coffeebackground.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -28,7 +27,7 @@ body {
 
 .shinobi,
 .web {
-  height: 200px;
+  height: 180px;
 }
 
 img {
@@ -69,7 +68,7 @@ img {
   margin: 0 auto;
   transition: 0.3s;
   height: 100%;
-  width: 300px;
+  width: 320px;
   /* Set the transition effects */
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
